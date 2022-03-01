@@ -1,11 +1,10 @@
-import Nav from "./components/Nav";
+import NavBar from "./components/NavBar";
 import { Routers, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      <Nav />
-      {/* Header */}
+      <NavBar />
       {/* Body */}
       {/* Footer */}
     </div>
