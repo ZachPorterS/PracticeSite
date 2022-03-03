@@ -1,14 +1,16 @@
+import { React, useState } from 'react';
 import { NavItems } from './NavItems';
 import '../styles/NavBar.css';
 
 const NavBar = () => {
+
+
   return (
     <nav className='navbar'>
-      <h1 className='nav-logo'>Bakery <i className='fa-solid fa-cupcake' /></h1>
-      <div className='nav-icon'>
-
-      </div>
-      <ul>
+      <h1 className='nav-logo'>
+        <i className='fa fa-birthday-cake' /> Bakery
+      </h1>
+      <ul className='nav-items'>
         {NavItems.map((item, index) => {
           return (
             <li key={index}>
