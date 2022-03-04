@@ -1,15 +1,24 @@
+:root {
+  --navBackgroundPrimary: #0b0c10;
+  --fontPrimary: #eee2dc;
+  --hoverLinkPrimary: #efc7b7;
+  --btnPrimary: #66fcf1;
+  --btnOutline: #45a29e;
+}
+
 .navbar {
-  background: lightcyan;
+  background: var(--navBackgroundPrimary);
   height: 64px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.2rem;
+  z-index: -1;
 }
 
 .nav-logo {
-  color: #000;
+  color: var(--fontPrimary);
   justify-self: start;
   cursor: pointer;
 }
@@ -25,11 +34,11 @@
 }
 
 .nav-links {
-  color: #000;
+  color: var(--fontPrimary);
   text-decoration: none;
   padding: 0.5rem 0.8rem;
 }
 
 .nav-links:hover {
-  color: red;
+  color: var(--hoverLinkPrimary);
 }
