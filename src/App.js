@@ -1,13 +1,13 @@
 import NavBar from "./components/NavBar";
 import SlideShow from "./components/SlideShow";
+import { images } from './components/imageData';
 import "./styles/App.css";
-import { Routers, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div>
       <NavBar />
-      <SlideShow />
+      <SlideShow slides={images} />
       {/* Body */}
       {/* Footer */}
     </div>
