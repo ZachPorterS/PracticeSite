@@ -8,7 +8,7 @@ const NavBar = () => {
   return (
     <nav className='navbar'>
       <h1 className='nav-logo'>
-        <i className='fa fa-birthday-cake' /> Bakery
+        <i className='fa fa-birthday-cake' /> 日のベーカリー
       </h1>
       <ul className='nav-items'>
         {NavItems.map((item, index) => {
